@@ -17,13 +17,16 @@ const First = () => {
   return (
     <>
       <h1>API Integrate with Axios</h1>
+      <div>
       <ul id='data'>
         {data.map((item, index) => (
           <li key={item.id}>{item.name}</li>
         ))}
       </ul>
+      </div>
+      
     </>
   );
 }
-
 export default First;
+
