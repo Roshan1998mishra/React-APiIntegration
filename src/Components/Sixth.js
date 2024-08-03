@@ -16,7 +16,7 @@ const Sixth = () => {
 
     return (
         <>
-            <h1>Sixth API Integrate example</h1>
+            <h1>Sixth API Integrate example</h1> 
             <div >
                 <div id='count' style={{width:'100px'}}>
                     {count.map((item, index) => (
